@@ -26,8 +26,13 @@ const [tasks, setTasks] = useState([
   }
 ])
 
+const deleteTask = (id) => {
+  console.log('delete', id);
+}
+
 const nombre = 'Marco'
 const x = true
+const y = false
 
   return (
     <div>
